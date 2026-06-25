@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	parameter "example.com/function-explanation/function-explanation"
+)
 
 func Sum(a int, b int) int {
 	return a + b
@@ -51,4 +55,5 @@ func main() {
 	fmt.Println("The sum is:", result)
 	userInformation()
 	addTwoNumbers()
+	parameter.ParameterExample("alice", 20)
 }
